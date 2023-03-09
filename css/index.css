@@ -77,7 +77,7 @@
     margin-top: 50px;
 }
 
-.btn__wrapper button{
+.btn__arrow__box button{
     width: 27px;
     height: 27px;
     border: 1px solid #8E8E8E;
@@ -88,9 +88,25 @@
     margin-right: 6px;
 }
 
-.btn__wrapper > span{
+.number__wrap{
+    margin: 0 30px;
+}
+
+.number__wrap > button{
+    width: 27px;
+    height: 27px;
+}
+
+.number__wrap span{
     font-size: 19px;
     font-weight: 500;
     line-height: 27px;
-    margin: 0 30px;
+}
+
+.number__wrap > button{
+    background-color: #ffffff;
+}
+
+.btn__wrapper *{
+    -webkit-user-drag: none;
 }
